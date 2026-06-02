@@ -1,17 +1,16 @@
 package com.tecsup.petclinic.entities;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Set;
 
-/**
- * 
- * @author jgomezm
- *
- */
 @NoArgsConstructor
+@AllArgsConstructor
+@Builder
 @Entity(name = "vets")
 @Data
 public class Vet {

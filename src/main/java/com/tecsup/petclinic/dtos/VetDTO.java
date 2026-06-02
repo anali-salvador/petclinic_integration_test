@@ -9,16 +9,12 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Builder
-public class PetDTO {
+public class VetDTO {
 
     private Integer id;
 
-    private String name;
+    private String firstName;
 
-    private int typeId;
-
-    private int ownerId;
-
-    private String birthDate;
+    private String lastName;
 
 }
